@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?php 
 use avikarsha\grid\GridView;
-
+?>
 <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'summary' => '<div class="css-group-head"><i class="css-groups-sign-box">r</i>Retail</div>',
